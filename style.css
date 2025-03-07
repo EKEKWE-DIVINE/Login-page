@@ -1,0 +1,565 @@
+html{
+    background-image: url(/magical-mountains-landscape-collage_23-2150800059.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+body{
+    padding: 0;
+    margin: 0;
+    /* background-color: black !important; */
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    overflow: hidden;
+}
+::placeholder{
+    color: black;
+}
+
+/* .full-container{
+    background-image: url(/magical-mountains-landscape-collage_23-2150800059.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 688px; 
+} */
+
+.navbar-container{
+    background-color: rgba(12, 12, 12, 0.767); 
+    height: 65px;
+    display: flex; 
+    color: white; 
+    align-items: center;
+    position: sticky;
+}
+
+.logo{
+    color: white; 
+    font-weight: bolder; 
+    font-size: 28px; 
+    margin-left: 90px;
+}
+
+
+.side-navbar{
+    margin-left: 920px;
+}
+
+.Option-l{
+    display: flex; 
+    gap: 50px; 
+    list-style: none; 
+    align-items: center;
+}
+
+#T-Login{
+    height: 35px;
+    width: 80px; 
+    background-color: transparent; 
+    border-color: white;
+    color: white; 
+    cursor: pointer;
+}
+
+.subutton {
+  /* background-color: #04AA6D; */
+  height: 35px;
+  width: 80px; 
+  background-color: transparent; 
+  border-color: white;
+  color: white; 
+  cursor: pointer;
+}
+
+.login-container{
+    height: 34vw; 
+    background-color: rgba(255, 255, 255, 0.4); 
+    width: 29vw; 
+    justify-self: center;  
+    margin-top: 80px; 
+    border-radius: 30px; 
+    -webkit-backdrop-filter: blur(8px); 
+    backdrop-filter: blur(8px); 
+    align-content: center;
+}
+.Cancel-btn{
+    color: white;
+}
+
+.Cancel-btn:hover,
+.Cancel-btn:focus{
+    color: red;
+}
+.Login-text{
+    font-weight: bolder; 
+    text-align: center; 
+    font-size: 36px; 
+    margin: 0; 
+    margin-bottom: 20px;
+}
+
+.Username{
+    height: 50px;    
+    align-content: center;
+    text-align: center;
+}
+
+#Text{
+    width: 25vw; 
+    background: none; 
+    height: 30px; 
+    border-top: none; 
+    border-left: none; 
+    border-right: none; 
+    border-color: black; 
+    border-radius: 2px;
+}
+
+.Email{
+    height: 50px; 
+    align-content: center; 
+    text-align: center; 
+    margin-top: 15px;
+}
+
+#Email{
+    width: 25vw; 
+    background: none; 
+    height: 30px; 
+    border-top: none; 
+    border-left: none; 
+    border-right: none; 
+    border-color: black; 
+    border-radius: 2px;
+}
+
+.Password{
+    height: 50px; 
+    align-content: center; 
+    text-align: center; 
+    margin-top: 15px;
+}
+
+#Password{
+    width: 25vw; 
+    background: none; 
+    height: 30px; 
+    border-top: none; 
+    border-left: none; 
+    border-right: none; 
+    border-color: black; 
+    border-radius: 2px; 
+}
+
+.Forgot-P{
+    justify-content: center; 
+    display: flex; 
+    gap: 120px; 
+    align-items: center; 
+    margin-top: 10px;
+}
+
+.Remember{
+    display: flex; 
+    gap: 10px; 
+    align-items: center; 
+    height: 30px; 
+}
+
+#Remember{
+    color: white;
+}
+
+#Forgot-P{
+    align-self: center;
+}
+
+.Login-btn{
+    margin-top: 1vw; 
+    display: flex; 
+    justify-content: center;
+}
+
+#Login-btn{
+    height: 40px; 
+    width: 25vw; 
+    border-radius: 5px; 
+    cursor: pointer;
+    font-weight: bolder; 
+    font-size: large; 
+    color: white; 
+    background-color: black;
+}
+
+.botton-ctnr{
+    display: flex; 
+    justify-content: center; 
+    margin-top: 24px;
+}
+* {box-sizing: border-box}
+/* Full-width input fields */
+#sText{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+#sText:focus {
+    background-color: #ddd;
+    outline: none;
+
+}
+  #semail, #psw, #pswr {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+#semail:focus,#psw:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+.sbutton {
+  /* background-color: #04AA6D; */
+  background-color: black;
+  color: white;
+  /* padding: 14px 20px;
+  margin: 8px 0; */
+  border: none;
+  cursor: pointer;
+  width: 60px;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  /* padding: 14px 20px; */
+  background-color: #f44336;
+  text-align: center;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 0.5; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /*Enable scroll if needed*/
+  background-color: #4b485e;
+  /* padding-top: 20px; */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+.clearfix{
+    display: flex;
+    gap: 30px;
+}
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+ 
+
+@media screen and (max-width: 1400px) {
+
+  html{
+    background-image: url(/magical-mountains-landscape-collage_23-2150800059.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+    .side-navbar {
+        margin-left: 700px;
+    }
+
+    .login-container {
+        width: 35vw;
+        height: auto;
+        padding: 30px;
+    }
+
+    #Text, #Email, #Password {
+        width: 30vw;
+    }
+
+    #Login-btn {
+        width: 30vw;
+    }
+  }
+
+@media screen and (max-width: 1200px) {
+
+  html{
+    background-image: url(/magical-mountains-landscape-collage_23-2150800059.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+    .side-navbar {
+        margin-left: 500px;
+    }
+
+    .login-container {
+        width: 40vw;
+    }
+
+    #Text, #Email, #Password {
+        width: 35vw;
+    }
+
+    #Login-btn {
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width: 992px) {
+  html{
+    background-image: url(/magical-mountains-landscape-collage_23-2150800059.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+    .logo {
+        margin-left: 40px;
+    }
+
+    .side-navbar {
+        margin-left: 300px;
+    }
+
+    .login-container {
+        width: 50vw;
+        margin-top: 60px;
+    }
+
+    #Text, #Email, #Password {
+        width: 45vw;
+    }
+
+    #Login-btn {
+        width: 45vw;
+    }
+
+    .Forgot-P {
+        gap: 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  html{
+    background-image: url(/magical-mountains-landscape-collage_23-2150800059.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+    .navbar-container {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .logo {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+
+    .side-navbar {
+        margin-left: 0;
+    }
+
+    .Option-l {
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .login-container {
+        width: 70vw;
+        margin-top: 40px;
+        padding: 25px;
+    }
+
+    #Text, #Email, #Password {
+        width: 60vw;
+    }
+
+    #Login-btn {
+        width: 60vw;
+    }
+
+    .Forgot-P {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+  html{
+    background-image: url(/magical-mountains-landscape-collage_23-2150800059.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+    .navbar-container {
+        padding: 10px 0;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .Option-l {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .login-container {
+        width: 85vw;
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    #Text, #Email, #Password {
+        width: 75vw;
+    }
+
+    #Login-btn {
+        width: 75vw;
+    }
+
+    .Forgot-P {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .Login-text {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+  html{
+    background-image: url(/magical-mountains-landscape-collage_23-2150800059.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+    .login-container {
+        width: 90vw;
+        padding: 15px;
+    }
+
+    #Text, #Email, #Password {
+        width: 80vw;
+    }
+
+    #Login-btn {
+        width: 80vw;
+    }
+
+    .modal-content {
+        width: 95%;
+        margin: 10% auto;
+    }
+
+    .clearfix {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+
+    .Login-text {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .login-container {
+        width: 95vw;
+        padding: 10px;
+    }
+
+    #Text, #Email, #Password {
+        width: 85vw;
+    }
+
+    #Login-btn {
+        width: 85vw;
+    }
+
+    .Login-text {
+        font-size: 22px;
+    }
+}
