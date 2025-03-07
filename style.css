@@ -1,28 +1,32 @@
-html,body{
+html, body {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    zoom: 100%;
 }
-html{
+
+html {
     background-image: url(/Login-page/magical-mountains-landscape-collage_23-2150800059.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed; /* Ensure the background image stays fixed */
     overflow: hidden;
 }
-body{
+
+body {
     padding: 0;
     margin: 0;
     /* background-color: black !important; */
 }
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
     overflow: hidden;
 }
-::placeholder{
+
+::placeholder {
     color: black;
 }
 
