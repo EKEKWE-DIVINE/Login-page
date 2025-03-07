@@ -4,6 +4,7 @@ html,body{
     margin: 0;
     padding: 0;
     overflow: hidden;
+    zoom: 100%;
 }
 html{
     background-image: url(/Login-page/magical-mountains-landscape-collage_23-2150800059.jpg);
